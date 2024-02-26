@@ -62,49 +62,18 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        problemTwo problem = new problemTwo();
+        Day2Problems problems = new Day2Problems();
 
-        //List<int> ints = new List<int>{ -4, 3, -9, 0, 4, 1 };
-        //problem.plusMinus(ints);
-        //List<int> ints2 = new List<int> { 256741038, 623958417, 467905213, 714532089, 938071625 };
-        //problem.miniMaxSum(ints2);
-
-        //string test = problem.timeConversion("12:45:54PM");
-        //Console.ReadLine();
-        List<int> ints = new List<int> { 1, 2, 3, 4, 3, 2, 1 };
-        int result = problem.lonelyinteger(ints);
-        Console.ReadLine();
-        //List<List<int>> s = new List<List<int>>()
-        //{
-        //    new List<int> { 4, 9, 2 },
-        //    new List<int> { 3, 5, 7 },
-        //    new List<int> { 8, 1, 5 }
-        //};
-
-        //List<List<int>> s2 = new List<List<int>>()
-        //{
-        //    new List<int> { 5, 1, 8 },
-        //    new List<int> { 7, 5, 3 },
-        //    new List<int> { 2, 9, 4 }
-        //};
-
-
-
-        //List<List<int>> s3 = new List<List<int>>()
-        //{
-        //    new List<int> { 4, 8, 2 },
-        //    new List<int> { 4, 5, 7 },
-        //    new List<int> { 6, 1, 6 }
-        //};
-
-
-
-
-
-        //int result = Result.formingMagicSquare(s3);
-
+        //Problem 1
+        //List<List<int>> numbers = new List<List<int>>();
+        //numbers.Add(new List<int>() { 11, 2, 4 });
+        //numbers.Add(new List<int>() { 4, 5, 6 });
+        //numbers.Add(new List<int>() { 10, 8, -12 });
+        //int result = problems.diagonalDifference(numbers);
         //Console.WriteLine(result);
 
+        List<int> input = new List<int> { 63, 25, 73, 1, 98, 73, 56, 84, 86, 57, 16, 83, 8, 25, 81, 56, 9, 53, 98, 67, 99, 12, 83, 89, 80, 91, 39, 86, 76, 85, 74, 39, 25, 90, 59, 10, 94, 32, 44 };
+        problems.countingSort(input);
 
     }
 }
